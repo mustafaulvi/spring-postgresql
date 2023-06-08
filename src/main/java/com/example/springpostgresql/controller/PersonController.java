@@ -12,7 +12,7 @@ import java.util.List;
 @RequestMapping("/person")
 @RequiredArgsConstructor
 public class PersonController {
-    private PersonService personService;
+    private final PersonService personService;
 
     @GetMapping
     public ResponseEntity<List<PersonDto>> getAllPerson (){
