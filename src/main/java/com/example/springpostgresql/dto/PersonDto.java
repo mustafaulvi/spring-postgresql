@@ -12,7 +12,7 @@ import java.util.List;
 public class PersonDto {
 
     private Long id;
-    private String name;
-    private String surName;
+    private String firstName;
+    private String lastName;
     private List<String> addresses;
 }
